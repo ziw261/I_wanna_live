@@ -2,9 +2,518 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="032bf4e7-5e87-4525-a722-82f5e4764534" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TileVania/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Coordinate Brush.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Coordinate Brush/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Coordinate Brush/Scripts/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Coordinate Brush/Scripts/Editor/CoordinateBrush.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Coordinate Brush/Scripts/Editor/CoordinateBrush.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/GameObject Brush.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/GameObject Brush/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/GameObject Brush/Scripts/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/GameObject Brush/Scripts/Editor/GameObjectBrush.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/GameObject Brush/Scripts/Editor/GameObjectBrush.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Group Brush.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Group Brush/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Group Brush/Scripts/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Group Brush/Scripts/Editor/GroupBrush.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Group Brush/Scripts/Editor/GroupBrush.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Line Brush.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Line Brush/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Line Brush/Scripts/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Line Brush/Scripts/Editor/LineBrush.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Line Brush/Scripts/Editor/LineBrush.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Prefab Brush.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Prefab Brush/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Prefab Brush/Scripts/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Prefab Brush/Scripts/Editor/PrefabBrush.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Prefab Brush/Scripts/Editor/PrefabBrush.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Random Brush.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Random Brush/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Random Brush/Scripts/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Random Brush/Scripts/Editor/RandomBrush.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Random Brush/Scripts/Editor/RandomBrush.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Tint Brush Smooth.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Tint Brush Smooth/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Tint Brush Smooth/Scripts/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Tint Brush Smooth/Scripts/Editor/TintBrushSmooth.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Tint Brush Smooth/Scripts/Editor/TintBrushSmooth.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Tint Brush Smooth/Scripts/TintTextureGenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Tint Brush Smooth/Scripts/TintTextureGenerator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Tint Brush Smooth/Shaders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Tint Brush Smooth/Shaders/TintedTilemap.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Tint Brush Smooth/Shaders/TintedTilemap.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Tint Brush.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Tint Brush/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Tint Brush/Scripts/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Tint Brush/Scripts/Editor/TintBrush.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Tint Brush/Scripts/Editor/TintBrush.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/GridInformation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/GridInformation/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/GridInformation/Scripts/GridInformation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/GridInformation/Scripts/GridInformation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Animated Tile.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Animated Tile/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Animated Tile/Scripts/AnimatedTile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Animated Tile/Scripts/AnimatedTile.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Hexagonal Rule Tile.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Hexagonal Rule Tile/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Hexagonal Rule Tile/Editor/HexagonalRuleTileEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Hexagonal Rule Tile/Editor/HexagonalRuleTileEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Hexagonal Rule Tile/HexagonalRuleTile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Hexagonal Rule Tile/HexagonalRuleTile.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Isometric Rule Tile.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Isometric Rule Tile/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Isometric Rule Tile/Editor/IsometricRuleTileEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Isometric Rule Tile/Editor/IsometricRuleTileEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Isometric Rule Tile/IsometricRuleTile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Isometric Rule Tile/IsometricRuleTile.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Pipeline Tile.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Pipeline Tile/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Pipeline Tile/Scripts/PipelineTile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Pipeline Tile/Scripts/PipelineTile.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Random Tile.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Random Tile/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Random Tile/Scripts/RandomTile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Random Tile/Scripts/RandomTile.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Override Tile.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Override Tile/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Override Tile/Scripts/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Override Tile/Scripts/Editor/PopulateRuleOverrideTileWizard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Override Tile/Scripts/Editor/PopulateRuleOverrideTileWizard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Override Tile/Scripts/Editor/RuleOverrideTileEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Override Tile/Scripts/Editor/RuleOverrideTileEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Override Tile/Scripts/RuleOverrideTile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Override Tile/Scripts/RuleOverrideTile.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Tile.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Tile/ScriptTemplates.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Tile/ScriptTemplates/NewCustomRuleTile.cs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Tile/ScriptTemplates/NewCustomRuleTile.cs.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Tile/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Tile/Scripts/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Tile/Scripts/Editor/CustomRuleTileMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Tile/Scripts/Editor/CustomRuleTileMenu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Tile/Scripts/Editor/RuleTileEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Tile/Scripts/Editor/RuleTileEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Tile/Scripts/RuleTile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Tile/Scripts/RuleTile.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Terrain Tile.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Terrain Tile/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Terrain Tile/Scripts/TerrainTile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Terrain Tile/Scripts/TerrainTile.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Weighted Random Tile.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Weighted Random Tile/WeightedRandomTile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Weighted Random Tile/WeightedRandomTile.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/LICENSE.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/2d-extras-2019.1/README.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/CrossPlatformInputGuidelines.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/CrossPlatformInputGuidelines.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Prefabs/CarTiltControls.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Prefabs/CarTiltControls.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileAircraftControls.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileAircraftControls.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileSingleStickControl.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileSingleStickControl.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileTiltControlRig.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileTiltControlRig.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorOverSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorOverSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorUpSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorUpSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowOverSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowOverSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowUpSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowUpSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeOverSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeOverSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeUpSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeUpSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonCameraCycleUpSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonCameraCycleUpSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonResetSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonResetSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickOverSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickOverSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleFullUpSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleFullUpSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleSlowUpSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleSlowUpSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/SliderBackgroundSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/SliderBackgroundSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/SliderHandleSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/SliderHandleSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/TouchpadSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Sprites/TouchpadSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-firstpass.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/00/00c3c865782347f41b6358d9fba14b48" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/00/00c3c865782347f41b6358d9fba14b48.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/06/0626b924325d1c34cafa6b22297f4e4f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/06/0626b924325d1c34cafa6b22297f4e4f.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/0b/0bc72db1e9dcb9647818df5a07871127" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/0b/0bc72db1e9dcb9647818df5a07871127.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/0c/0c6271a290ef75b4c97d58746c86c5b8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/0c/0c6271a290ef75b4c97d58746c86c5b8.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/0f/0f57aeb1b8dce3342bea5c28ac17db24" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/0f/0f57aeb1b8dce3342bea5c28ac17db24.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/17/174090ae7f9eff84abe76f0ff062efac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/17/174090ae7f9eff84abe76f0ff062efac.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/18/1835e4537efbdd94b93c2dd136860f1d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/18/1835e4537efbdd94b93c2dd136860f1d.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/1c/1caf40fc8bebb6b43b2550c05ca791d6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/1c/1caf40fc8bebb6b43b2550c05ca791d6.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/21/2169821f0567671499a5c10104c69c24" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/21/2169821f0567671499a5c10104c69c24.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/33/3369231b1ed7ad34e84d9240a571db81" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/33/3369231b1ed7ad34e84d9240a571db81.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/3d/3d8675433a508ec47b8f895201eacf20" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/3d/3d8675433a508ec47b8f895201eacf20.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/3f/3f66eeca8ac36914e9ec9a716a9d9f73" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/3f/3f66eeca8ac36914e9ec9a716a9d9f73.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/49/49b611e658efbf443b686a4036f74fe3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/49/49b611e658efbf443b686a4036f74fe3.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/4d/4db017495c69e8140a56a0e2b669e3f8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/4d/4db017495c69e8140a56a0e2b669e3f8.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/54/5485e2f56028a3c4cb54f5caa167377e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/54/5485e2f56028a3c4cb54f5caa167377e.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/5b/5b1a64ea234fb2343b8d0686c51280de" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/5b/5b1a64ea234fb2343b8d0686c51280de.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/5c/5c2d84226fbbaf94e9c1451f1c39b06a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/5c/5c2d84226fbbaf94e9c1451f1c39b06a.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/5d/5d3fb8e05edcf4b41aef584ca1b0d06f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/5d/5d3fb8e05edcf4b41aef584ca1b0d06f.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/6a/6ac1ce5a5adfd9f46adbf5b6f752a47c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/6a/6ac1ce5a5adfd9f46adbf5b6f752a47c.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/71/710bc43f80d178548bd226c252c8e65b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/71/710bc43f80d178548bd226c252c8e65b.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/71/71398ce7fbc3a5b4fa50b50bd54317a7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/71/71398ce7fbc3a5b4fa50b50bd54317a7.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/7d/7d3269566d48b8447bb48d2259e28f8b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/7d/7d3269566d48b8447bb48d2259e28f8b.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/82/827c9cd4a3943534f909ac6473e17288" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/82/827c9cd4a3943534f909ac6473e17288.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/85/85bf3be603548374ca46f521a3aa7fda" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/85/85bf3be603548374ca46f521a3aa7fda.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/95/9529ecc3d479da5499993355e6c2cb4f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/95/9529ecc3d479da5499993355e6c2cb4f.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/97/9703d53e47195aa4190acd11369ccd1b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/97/9703d53e47195aa4190acd11369ccd1b.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/98/9866a92691696b346901281f2b329034" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/98/9866a92691696b346901281f2b329034.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/99/9961032f4f02c4f41997c3ea399d2f22" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/99/9961032f4f02c4f41997c3ea399d2f22.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/99/999388b68bb99b44099461bfbed94358" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/99/999388b68bb99b44099461bfbed94358.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/9a/9ab98b66288df7b4fa182075f2f12bd6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/9a/9ab98b66288df7b4fa182075f2f12bd6.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/9d/9d7c6e4896067aa4fa512a00f692ac1c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/9d/9d7c6e4896067aa4fa512a00f692ac1c.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/a3/a3983c59ebf804b4abba687bd7c9e92f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/a3/a3983c59ebf804b4abba687bd7c9e92f.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/a3/a3b997593a4f12c4c991490593f3b513" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/a3/a3b997593a4f12c4c991490593f3b513.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/a9/a94c9a7eb94ceec4a8d67a1890e22e51" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/a9/a94c9a7eb94ceec4a8d67a1890e22e51.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/c6/c6195a43a0187a34e9c6be23520d3766" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/c6/c6195a43a0187a34e9c6be23520d3766.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/e4/e4f1fee3de32377429fd1348fae62b10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/e4/e4f1fee3de32377429fd1348fae62b10.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/ea/ea5873cfd9158664f89459f0c9e1d853" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/ea/ea5873cfd9158664f89459f0c9e1d853.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/eb/eb5f6e2757c821940b69cf1456f7865a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/eb/eb5f6e2757c821940b69cf1456f7865a.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/f5/f588d850485d0ae479d73cf3bd0b7b00" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/f5/f588d850485d0ae479d73cf3bd0b7b00.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-0845217dcb01745559a5fd06cae33526" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-1277442a65f8f41ccbf0961eaf5a27c9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-2c75929015fbf4f7aba49e5e93c74eb9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-3e9288007a6f1499c9e042cd1e3dbed7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-4147d0f5abdd64aaa8b4f3afdd7194a4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-415e11320ff274b87a3e6cdf34bbdd97" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-446ff124653d84c03af2ed331b301654" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-55ba69b5c2d39456fad648b7857a965d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-5e2f993a0a7b0430eace0584a9355510" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-6db7075973e924d179af7b9012b9a79f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-7e1b912aa3653453daff1d4a0a30bde8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-93e6b052ac2074022bcd0a4aca783f9b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-b40493df19e43444589680782c3132a0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-b510cc487d4a444f9bb80e60a3674a80" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-be3fb4958bf9846688380c815b200b16" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-c0221273b165c43a5809351863c2d369" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-cd2399ce2c6ee41a0b1935ee2f6ac7e7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-ce2173b13d75541ce939fd8ef1fbc118" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-cf196761b4b6a4906bee6ad09d9fd05b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-dc754aef720f14879b433e4568f9b18a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-e6df74e88e80945ddb23092055cefab2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-eab0829860f744533acfad059f742e4f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-ed5c24d046e76442281b18596280c7d4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-f28fafc031dda4bbf874eaf37d3cffa3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-f51c8b709840a4648bb86a64ef7ca91a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-fa103954c78db49b683bf243c71a62e0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TileVania/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TileVania/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TileVania/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TileVania/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TileVania/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TileVania/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Coordinate Brush.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Coordinate Brush/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Coordinate Brush/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Coordinate Brush/Scripts/Editor/CoordinateBrush.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Coordinate Brush/Scripts/Editor/CoordinateBrush.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/GameObject Brush.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/GameObject Brush/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/GameObject Brush/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/GameObject Brush/Scripts/Editor/GameObjectBrush.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/GameObject Brush/Scripts/Editor/GameObjectBrush.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Group Brush.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Group Brush/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Group Brush/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Group Brush/Scripts/Editor/GroupBrush.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Group Brush/Scripts/Editor/GroupBrush.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Line Brush.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Line Brush/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Line Brush/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Line Brush/Scripts/Editor/LineBrush.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Line Brush/Scripts/Editor/LineBrush.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Prefab Brush.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Prefab Brush/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Prefab Brush/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Prefab Brush/Scripts/Editor/PrefabBrush.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Prefab Brush/Scripts/Editor/PrefabBrush.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Random Brush.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Random Brush/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Random Brush/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Random Brush/Scripts/Editor/RandomBrush.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Random Brush/Scripts/Editor/RandomBrush.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Tint Brush Smooth.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Tint Brush Smooth/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Tint Brush Smooth/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Tint Brush Smooth/Scripts/Editor/TintBrushSmooth.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Tint Brush Smooth/Scripts/Editor/TintBrushSmooth.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Tint Brush Smooth/Scripts/TintTextureGenerator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Tint Brush Smooth/Scripts/TintTextureGenerator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Tint Brush Smooth/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Tint Brush Smooth/Shaders/TintedTilemap.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Tint Brush Smooth/Shaders/TintedTilemap.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Tint Brush.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Tint Brush/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Tint Brush/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Tint Brush/Scripts/Editor/TintBrush.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Brushes/Tint Brush/Scripts/Editor/TintBrush.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/GridInformation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/GridInformation/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/GridInformation/Scripts/GridInformation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/GridInformation/Scripts/GridInformation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Animated Tile.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Animated Tile/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Animated Tile/Scripts/AnimatedTile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Animated Tile/Scripts/AnimatedTile.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Hexagonal Rule Tile.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Hexagonal Rule Tile/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Hexagonal Rule Tile/Editor/HexagonalRuleTileEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Hexagonal Rule Tile/Editor/HexagonalRuleTileEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Hexagonal Rule Tile/HexagonalRuleTile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Hexagonal Rule Tile/HexagonalRuleTile.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Isometric Rule Tile.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Isometric Rule Tile/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Isometric Rule Tile/Editor/IsometricRuleTileEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Isometric Rule Tile/Editor/IsometricRuleTileEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Isometric Rule Tile/IsometricRuleTile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Isometric Rule Tile/IsometricRuleTile.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Pipeline Tile.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Pipeline Tile/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Pipeline Tile/Scripts/PipelineTile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Pipeline Tile/Scripts/PipelineTile.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Random Tile.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Random Tile/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Random Tile/Scripts/RandomTile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Random Tile/Scripts/RandomTile.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Override Tile.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Override Tile/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Override Tile/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Override Tile/Scripts/Editor/PopulateRuleOverrideTileWizard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Override Tile/Scripts/Editor/PopulateRuleOverrideTileWizard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Override Tile/Scripts/Editor/RuleOverrideTileEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Override Tile/Scripts/Editor/RuleOverrideTileEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Override Tile/Scripts/RuleOverrideTile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Override Tile/Scripts/RuleOverrideTile.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Tile.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Tile/ScriptTemplates.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Tile/ScriptTemplates/NewCustomRuleTile.cs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Tile/ScriptTemplates/NewCustomRuleTile.cs.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Tile/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Tile/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Tile/Scripts/Editor/CustomRuleTileMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Tile/Scripts/Editor/CustomRuleTileMenu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Tile/Scripts/Editor/RuleTileEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Tile/Scripts/Editor/RuleTileEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Tile/Scripts/RuleTile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Rule Tile/Scripts/RuleTile.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Terrain Tile.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Terrain Tile/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Terrain Tile/Scripts/TerrainTile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Terrain Tile/Scripts/TerrainTile.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Weighted Random Tile.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Weighted Random Tile/WeightedRandomTile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/Assets/Tilemap/Tiles/Weighted Random Tile/WeightedRandomTile.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/LICENSE.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2d-extras-2019.1/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SandBox.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SandBox.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/7bc3ac-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/7bc3ac-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000002000000000000000" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000002000000000000000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000005100000000000000" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000005100000000000000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/09/090e78558c17f064eae502998e2f22fb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/09/090e78558c17f064eae502998e2f22fb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/0a/0abded712ad706044a53ef292972edbb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/0a/0abded712ad706044a53ef292972edbb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/0c/0c3034e66d810604680654a1e667fde0" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/0c/0c3034e66d810604680654a1e667fde0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/0d/0da715375d333a8418105408e081f130" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/0d/0da715375d333a8418105408e081f130" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/12/1263d004036ee7f42aeed98348b5e8cf" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/12/1263d004036ee7f42aeed98348b5e8cf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/13/139f9377103555b49b8dcd62686df3bf" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/13/139f9377103555b49b8dcd62686df3bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/13/13b75c95f34a00d4e8c04f76b73312e6" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/13/13b75c95f34a00d4e8c04f76b73312e6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/14/14fc4c2dd67018d41b00db847f45f5dd" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/14/14fc4c2dd67018d41b00db847f45f5dd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/18/186e43c057806e545b5fa3fe8dc394c1" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/18/186e43c057806e545b5fa3fe8dc394c1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/1a/1a641ca7aea56f8428c8c6efc8e618cb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/1a/1a641ca7aea56f8428c8c6efc8e618cb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/1b/1b0d52b5ffccd47e4ad51f9b78002e9e" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/1b/1b0d52b5ffccd47e4ad51f9b78002e9e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/1e/1e5614e4b96700843ba104987c4f190e" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/1e/1e5614e4b96700843ba104987c4f190e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/20/20cec442e86368c4186cadbbed55caf9" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/20/20cec442e86368c4186cadbbed55caf9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/25/25192638efa881c469b1ac4d8cfd3f1b" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/25/25192638efa881c469b1ac4d8cfd3f1b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/27/27c281d5970a0fd49bfebd8119dc790a" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/27/27c281d5970a0fd49bfebd8119dc790a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/2d/2d5751a2c961df945a34295ccf5e576d" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/2d/2d5751a2c961df945a34295ccf5e576d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/2e/2ea50964d54e5fe4daef60544c57e629" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/2e/2ea50964d54e5fe4daef60544c57e629" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/32/32b801acc992cb24298d963cc554c0a2" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/32/32b801acc992cb24298d963cc554c0a2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/33/33e8a22612607064dbfaa9d21d1836e8" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/33/33e8a22612607064dbfaa9d21d1836e8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/36/3664941e71bb62e4b94231620856f1c9" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/36/3664941e71bb62e4b94231620856f1c9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/37/375779081abb1214b824370a3f7417a7" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/37/375779081abb1214b824370a3f7417a7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/3d/3d5759c37f6ead941b87383dcb19bff3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/3d/3d5759c37f6ead941b87383dcb19bff3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/43/43e293f28d16b1e49a0e7065fabda4f2" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/43/43e293f28d16b1e49a0e7065fabda4f2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/47/47f5287a949e1094191c733949de285a" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/47/47f5287a949e1094191c733949de285a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/4c/4c779848d9dd029409ca676b49e10a18" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/4c/4c779848d9dd029409ca676b49e10a18" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/4d/4dcb91d1bb7d18847b5ce74c4cdb1921" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/4d/4dcb91d1bb7d18847b5ce74c4cdb1921" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/52/52f942ca9511f354a8efbf325740f4ab" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/52/52f942ca9511f354a8efbf325740f4ab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/53/535f8e525ff367c4ba67961e201a05ed" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/53/535f8e525ff367c4ba67961e201a05ed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/54/5461c6f43c33cae4e8367042630017f7" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/54/5461c6f43c33cae4e8367042630017f7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/54/5463cb2ee5eb1424a97c64edc053d37e" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/54/5463cb2ee5eb1424a97c64edc053d37e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/55/55f747e8af38fbe4d8819f37be6fd5aa" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/55/55f747e8af38fbe4d8819f37be6fd5aa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/62/6210598a979f8724a8dac4531c428889" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/62/6210598a979f8724a8dac4531c428889" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/62/622a5b28bb61f344188de8de7df1129d" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/62/622a5b28bb61f344188de8de7df1129d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/62/62c56be364c00f14ba85c5d3f280447c" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/62/62c56be364c00f14ba85c5d3f280447c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/64/642e946f97259c640b3a047a57944ed9" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/64/642e946f97259c640b3a047a57944ed9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/64/64fa95bf1baeb5f4497bd5048a284208" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/64/64fa95bf1baeb5f4497bd5048a284208" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/69/6967eb09317a16f4789fef3029f5e008" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/69/6967eb09317a16f4789fef3029f5e008" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/6a/6a7de8b7c9f16a54abb1f4e4b4dda454" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/6a/6a7de8b7c9f16a54abb1f4e4b4dda454" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/6d/6d62b55c63b75aa468f7dc342717b87f" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/6d/6d62b55c63b75aa468f7dc342717b87f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/73/73ffdc5b54c50214e9899760b98f5754" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/73/73ffdc5b54c50214e9899760b98f5754" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/74/7402f20de7e8fc34c9cfcbc965122710" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/74/7402f20de7e8fc34c9cfcbc965122710" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/76/762d145b6139de6478fcc2998702d839" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/76/762d145b6139de6478fcc2998702d839" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/77/7762219eb34564cfcbf5d7ad8fec7095" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/77/7762219eb34564cfcbf5d7ad8fec7095" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/78/789b50e17f7074628b62e4baf9db3779" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/78/789b50e17f7074628b62e4baf9db3779" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/78/789b50e17f7074628b62e4baf9db3779.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/78/789b50e17f7074628b62e4baf9db3779.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/7f/7f83a174d475ee842aaea9ee552fa506" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/7f/7f83a174d475ee842aaea9ee552fa506" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/8b/8b52b57c2118b2f4683f6e203db78e87" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/8b/8b52b57c2118b2f4683f6e203db78e87" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/8d/8dee42ba30f712246852f41830cedbef" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/8d/8dee42ba30f712246852f41830cedbef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/8f/8f0e4a19192261d448b776e63139448e" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/8f/8f0e4a19192261d448b776e63139448e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/91/91dd673b6b5d18845b756aedc65463ad" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/91/91dd673b6b5d18845b756aedc65463ad" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/9b/9b73c833515e70440a2222f774104211" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/9b/9b73c833515e70440a2222f774104211" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/9d/9d1514134bc4fbd41bb739b1b9a49231" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/9d/9d1514134bc4fbd41bb739b1b9a49231" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/9f/9fcc3b710e7f7ae44bcf65125a08d5ef" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/9f/9fcc3b710e7f7ae44bcf65125a08d5ef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/a4/a4b96e08a92a0de42b0c2fd3c56516b4" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/a4/a4b96e08a92a0de42b0c2fd3c56516b4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/a4/a4ce1d57936070949bdd366b4d13335f" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/a4/a4ce1d57936070949bdd366b4d13335f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/a5/a573a189e85fcd243a32fa6ac742ca44" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/a5/a573a189e85fcd243a32fa6ac742ca44" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/a9/a9fdf071ee2746a4b9db02f10619fe06" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/a9/a9fdf071ee2746a4b9db02f10619fe06" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/af/af0bc89550613a14fa0feadd363358e6" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/af/af0bc89550613a14fa0feadd363358e6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/b4/b41bf0cc11b1c8f419f96e8eb0adea40" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/b4/b41bf0cc11b1c8f419f96e8eb0adea40" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/b9/b926c29b963afab4d8da158e388e885b" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/b9/b926c29b963afab4d8da158e388e885b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/bd/bd699e75da4145a4890fe3345af1f0c5" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/bd/bd699e75da4145a4890fe3345af1f0c5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/be/becdef7ff3038f844a171e247f575688" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/be/becdef7ff3038f844a171e247f575688" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/c0/c089f6c0b4372d247bc0a1b236fce193" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/c0/c089f6c0b4372d247bc0a1b236fce193" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/c1/c19b34cefe86ca041af273c422ce286e" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/c1/c19b34cefe86ca041af273c422ce286e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/c7/c7ba6c94fde204440baf9496b54c8eeb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/c7/c7ba6c94fde204440baf9496b54c8eeb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/c9/c93545baa8c686a46a0ec319b747d53f" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/c9/c93545baa8c686a46a0ec319b747d53f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/cf/cf9ccd4324df2364db3ac79b01297df5" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/cf/cf9ccd4324df2364db3ac79b01297df5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/d2/d21ee09535e74493b9d994e4471dcdbd" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/d2/d21ee09535e74493b9d994e4471dcdbd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/d2/d283e353fe1f4c34f8ac458281740fb4" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/d2/d283e353fe1f4c34f8ac458281740fb4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/d3/d352e5b4c56a76e4d99fc48256bbc67e" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/d3/d352e5b4c56a76e4d99fc48256bbc67e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/d8/d80edd6caba93514eb01722041fe50b4" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/d8/d80edd6caba93514eb01722041fe50b4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/d8/d8f0a7d912b6f424aa0e09f8597dd2df" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/d8/d8f0a7d912b6f424aa0e09f8597dd2df" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/dc/dcc6f6bbc1d22e143828afb966aa1858" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/dc/dcc6f6bbc1d22e143828afb966aa1858" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/dd/dd977390416471341b10fd1278290da0" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/dd/dd977390416471341b10fd1278290da0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/dd/ddf6fb480373a4b4babf2bd106dd48d8" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/dd/ddf6fb480373a4b4babf2bd106dd48d8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/e7/e7bb9acb2cffc5f45abddc238a0ad9b0" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/e7/e7bb9acb2cffc5f45abddc238a0ad9b0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/ed/ed363ce3b4856fa408111529bc784318" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/ed/ed363ce3b4856fa408111529bc784318" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/ee/eec4c0c21e439e04083398ccd1928db0" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/ee/eec4c0c21e439e04083398ccd1928db0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/f6/f6e4e4fc705376343a3e65b25d94f0e2" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/f6/f6e4e4fc705376343a3e65b25d94f0e2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/f9/f9a74a0ba597dbd4ebbdc09df032a31c" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/f9/f9a74a0ba597dbd4ebbdc09df032a31c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/fa/fa5c106bc9eac9844897d7fea5f8328c" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/fa/fa5c106bc9eac9844897d7fea5f8328c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/fb/fbcacf945e7001e4396ca2ca8573ae6c" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/fb/fbcacf945e7001e4396ca2ca8573ae6c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/fc/fca143c8ef57a42d9ba8eb00dc2fae16" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/fc/fca143c8ef57a42d9ba8eb00dc2fae16" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TileVania.sln" beforeDir="false" afterPath="$PROJECT_DIR$/TileVania.sln" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,52 +521,36 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file:///Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.2d.tilemap/Editor/GridBrush.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5729">
-              <folding>
-                <element signature="e#0#127#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file:///Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.2d.tilemap/Editor/GridBrush.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="741" />
   </component>
-  <component name="ProjectView">
-    <navigator currentView="UnityExplorer" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="FileSystemExplorer" />
-      <pane id="AssemblyExplorer" />
-      <pane id="UnityExplorer">
-        <option name="show-hidden-items" value="false" />
-        <option name="show-project-names" value="true" />
-      </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1PkoPMexIwaa6LJ1RGh6nsvpqIW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -74,6 +567,22 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -85,56 +594,31 @@
       <option name="presentableId" value="Default" />
       <updated>1565132250914</updated>
       <workItem from="1565132257317" duration="440000" />
+      <workItem from="1566426131018" duration="38000" />
+      <workItem from="1566427436704" duration="2009000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="440000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="741" extended-state="6" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Performance Profiler" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -144,16 +628,5 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file:///Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.2d.tilemap/Editor/GridBrush.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5729">
-          <folding>
-            <element signature="e#0#127#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
