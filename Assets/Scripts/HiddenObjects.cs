@@ -6,6 +6,7 @@ using UnityEngine;
 public class HiddenObjects : MonoBehaviour {
     private void OnTriggerEnter2D(Collider2D other) {
         SpriteRenderer sp = gameObject.GetComponent<SpriteRenderer>();
+        Debug.Log("Activated");
         sp.enabled = true;
         sp.sortingLayerName = "Foreground";
     }

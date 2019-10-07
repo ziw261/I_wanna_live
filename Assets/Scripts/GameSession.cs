@@ -36,12 +36,16 @@ public class GameSession : MonoBehaviour {
     }
     
     public void ProcessPlayerDeath() {
+
+        StartCoroutine(TakeLife());
+
+        /*
         if (playerLives > 1) {
             StartCoroutine(TakeLife());
-            
         } else {
             StartCoroutine(ResetGameSession());
         }
+        */
     }
 
     
