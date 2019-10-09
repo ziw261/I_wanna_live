@@ -49,6 +49,7 @@ public class Player : MonoBehaviour {
     private void Run() {
         float controlThrow = CrossPlatformInputManager.GetAxis("Horizontal");  // from -1 to 1
         Vector2 playerVelocity = new Vector2(controlThrow * runSpeed, myRigidBody.velocity.y);
+        
         myRigidBody.velocity = playerVelocity;
         //print(playerVelocity);
         

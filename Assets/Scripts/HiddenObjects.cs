@@ -9,5 +9,8 @@ public class HiddenObjects : MonoBehaviour {
         Debug.Log("Activated");
         sp.enabled = true;
         sp.sortingLayerName = "Foreground";
+
+        PolygonCollider2D pg2d = gameObject.GetComponent<PolygonCollider2D>();
+        pg2d.enabled = true;
     }
 }
