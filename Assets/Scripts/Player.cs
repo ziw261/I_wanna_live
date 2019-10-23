@@ -14,6 +14,7 @@ public class Player : MonoBehaviour {
     
     // State
     private bool isAlive = true;
+    private bool canIDash = false;
     
     
     // Cached Component Reference
@@ -22,6 +23,7 @@ public class Player : MonoBehaviour {
     private CapsuleCollider2D myBodyCollider2D;
     private BoxCollider2D myFeetCollider2D;
     private float gravityScaleAtStart;
+    private DashAbility dashAbility;
     
     // Methods
     void Start() {
@@ -30,6 +32,8 @@ public class Player : MonoBehaviour {
         myBodyCollider2D = GetComponent<CapsuleCollider2D>();
         gravityScaleAtStart = myRigidBody.gravityScale;
         myFeetCollider2D = GetComponent<BoxCollider2D>();
+        dashAbility = GetComponent<DashAbility>();
+
     }
 
     // Update is called once per frame
@@ -44,12 +48,18 @@ public class Player : MonoBehaviour {
         Jump();
         ClimbLadder();
         Die();
+        //Dash();
     }
 
     private void Run() {
         float controlThrow = CrossPlatformInputManager.GetAxis("Horizontal");  // from -1 to 1
+
+        if (dashAbility.dashState == DashState.Dashing) {
+            return;
+        }
+       
         Vector2 playerVelocity = new Vector2(controlThrow * runSpeed, myRigidBody.velocity.y);
-        
+
         myRigidBody.velocity = playerVelocity;
         //print(playerVelocity);
         
@@ -57,6 +67,46 @@ public class Player : MonoBehaviour {
         bool isMoving = Mathf.Abs(myRigidBody.velocity.x) > Mathf.Epsilon;
         myAnimator.SetBool("Running", isMoving);
     }
+
+    
+    /*
+    private void Dash() {
+        if(CrossPlatformInputManager.GetButtonDown("Jump")) && canIDash == true){
+            if (myRigidBody.velocity.x == 0) {
+                return;
+            } else if (myRigidBody.velocity.x > 0) {
+                dashTimer += Time.deltaTime*3;
+                rigidbody.AddForce(Vector3.right*50);
+            }
+            if(direction == true) {
+                dashTimer += Time.deltaTime*3;
+                rigidbody.AddForce(Vector3.right*50);
+                 
+            }
+            if (direction == false)
+            {
+                dashTimer += Time.deltaTime*3;
+                rigidbody.AddForce(Vector3.left*50);
+            }
+        }
+         
+        if(dashTimer > .5f)
+        {
+            canIDash = false;
+            dashCooldown = true;
+        }
+        if(dashTimer < .5f && dashCooldown == false)
+        {
+            canIDash = true;
+        }
+        if(dashTimer <= 0)
+        {
+            dashCooldown = false;
+        }
+
+    }
+    */
+    
     
     private void ClimbLadder() {
         if (!myFeetCollider2D.IsTouchingLayers(LayerMask.GetMask("Climbing"))) {

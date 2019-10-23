@@ -10,6 +10,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="CoinPickup.cs" t="Include" />
+          <e p="DashAbility.cs" t="Include" />
           <e p="EnemyMovement.cs" t="Include" />
           <e p="FlyingObject.cs" t="Include" />
           <e p="FlyingTrigger.cs" t="Include" />
