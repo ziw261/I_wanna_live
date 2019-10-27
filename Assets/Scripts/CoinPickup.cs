@@ -6,11 +6,19 @@ using UnityEngine;
 public class CoinPickup : MonoBehaviour {
     // Start is called before the first frame update
     [SerializeField] private AudioClip coinPickUpSFX;
-    [SerializeField] private int pointsForCoinPickup = 100;
+    [SerializeField] private int pointsForCoinPickup = 1;
+
+    private bool hasBeenPicked = false;
     
     private void OnTriggerEnter2D(Collider2D other) {
-        FindObjectOfType<GameSession>().AddToScore(pointsForCoinPickup);
-        AudioSource.PlayClipAtPoint(coinPickUpSFX, Camera.main.transform.position);
-        Destroy(gameObject);
+
+        if (!hasBeenPicked) {
+            // Bug here: Player has two colliders, and the score may increase twice as we expected.
+            hasBeenPicked = true;
+            FindObjectOfType<GameSession>().AddToScore(pointsForCoinPickup);
+            AudioSource.PlayClipAtPoint(coinPickUpSFX, Camera.main.transform.position);
+            Destroy(gameObject);
+        } 
+        
     }
 }

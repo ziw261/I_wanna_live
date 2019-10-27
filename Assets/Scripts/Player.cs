@@ -23,7 +23,9 @@ public class Player : MonoBehaviour {
     private CapsuleCollider2D myBodyCollider2D;
     private BoxCollider2D myFeetCollider2D;
     private float gravityScaleAtStart;
-    private DashAbility dashAbility;
+    
+    // Future TODO
+    //private DashAbility dashAbility;
     
     // Methods
     void Start() {
@@ -32,7 +34,8 @@ public class Player : MonoBehaviour {
         myBodyCollider2D = GetComponent<CapsuleCollider2D>();
         gravityScaleAtStart = myRigidBody.gravityScale;
         myFeetCollider2D = GetComponent<BoxCollider2D>();
-        dashAbility = GetComponent<DashAbility>();
+        
+       //dashAbility = GetComponent<DashAbility>();
 
     }
 
@@ -53,11 +56,13 @@ public class Player : MonoBehaviour {
 
     private void Run() {
         float controlThrow = CrossPlatformInputManager.GetAxis("Horizontal");  // from -1 to 1
-
+        
+        /*
         if (dashAbility.dashState == DashState.Dashing) {
             return;
         }
-       
+        */
+        
         Vector2 playerVelocity = new Vector2(controlThrow * runSpeed, myRigidBody.velocity.y);
 
         myRigidBody.velocity = playerVelocity;

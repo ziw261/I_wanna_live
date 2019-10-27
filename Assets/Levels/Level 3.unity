@@ -3776,6 +3776,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5705250057407087722, guid: ed334e922eb834c2292eabcb8ad62224,
+        type: 3}
+      propertyPath: pointsForCoinPickup
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed334e922eb834c2292eabcb8ad62224, type: 3}
 --- !u!4 &185852386 stripped
@@ -4069,7 +4074,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1227862724}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c550d9012242664886b9134f56e89a1, type: 3}
   m_Name: 
@@ -4432,6 +4437,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705250057407087722, guid: ed334e922eb834c2292eabcb8ad62224,
+        type: 3}
+      propertyPath: pointsForCoinPickup
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed334e922eb834c2292eabcb8ad62224, type: 3}
@@ -18347,12 +18357,12 @@ PrefabInstance:
     - target: {fileID: 1698146084426913286, guid: 27303bb7e3f74439bbcda2e3ea5966c6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.268059
+      value: -16.267097
       objectReference: {fileID: 0}
     - target: {fileID: 1698146084426913286, guid: 27303bb7e3f74439bbcda2e3ea5966c6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1872792
+      value: 1.1872764
       objectReference: {fileID: 0}
     - target: {fileID: 1698146084426913529, guid: 27303bb7e3f74439bbcda2e3ea5966c6,
         type: 3}
@@ -18497,6 +18507,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705250057407087722, guid: ed334e922eb834c2292eabcb8ad62224,
+        type: 3}
+      propertyPath: pointsForCoinPickup
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed334e922eb834c2292eabcb8ad62224, type: 3}

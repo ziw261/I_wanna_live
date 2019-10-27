@@ -48,6 +48,11 @@ public class GameSession : MonoBehaviour {
         */
     }
 
+
+    public int ReturnScore() {
+        return score;
+    }
+
     
     
     IEnumerator TakeLife() {
