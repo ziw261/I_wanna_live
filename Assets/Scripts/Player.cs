@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -12,10 +13,12 @@ public class Player : MonoBehaviour {
     [SerializeField] private float jumpSpeed = 5f;
     [SerializeField] private float climbSpeed = 5f;
     [SerializeField] private Vector2 deathKick = new Vector2(25f, 25f);
+    [SerializeField] private float gravityForce = 50f;
     
     // State
     private bool isAlive = true;
     private bool canIDash = false;
+    private bool isReversed = false;
     
     
     // Cached Component Reference
@@ -39,6 +42,8 @@ public class Player : MonoBehaviour {
        //dashAbility = GetComponent<DashAbility>();
 
     }
+
+
 
     // Update is called once per frame
     void Update() {
@@ -135,10 +140,24 @@ public class Player : MonoBehaviour {
     private void reverseGravity() {
         // IMPORTANT: Change the build index when release
         if (SceneManager.GetActiveScene().buildIndex == 4) {
+            
             if (Input.GetKeyDown(KeyCode.G)) {
-                Debug.Log("WTF");
-                myRigidBody.gravityScale *= -1;
+                if (!isReversed) {
+                    Debug.Log("reversed");
+                    Physics2D.gravity = new Vector2(0, 9.8f*gravityForce);
+                    isReversed = true;
+                    gameObject.transform.rotation = new Quaternion(0,0,180,-gameObject.transform.rotation.w);
+                    Debug.Log(isReversed);
+                } else {
+                    Physics2D.gravity = new Vector2(0, -9.8f*gravityForce);
+                    gameObject.transform.rotation = new Quaternion(0,0,0,gameObject.transform.rotation.w);
+
+                    isReversed = false;
+                }
+                //Debug.Log("WTF");
             }
+            
+            
         }
     }
     
@@ -148,10 +167,23 @@ public class Player : MonoBehaviour {
         if (!myFeetCollider2D.IsTouchingLayers(LayerMask.GetMask("Ground"))) {
             return; 
         }
-
+        
+        
+        
         if (CrossPlatformInputManager.GetButtonDown("Jump")) {
-            Vector2 jumpVelocityToAdd = new Vector2(0f, jumpSpeed);
-            myRigidBody.velocity += jumpVelocityToAdd;
+            if (isReversed) {
+                Physics2D.gravity = new Vector2(0, 100f);
+                //Debug.Log("Get into iffffffff");
+                Vector2 jumpVelocityToAdd = new Vector2(0f, -jumpSpeed);
+                Vector2 tempVelocity = new Vector2(myRigidBody.velocity.x, -myRigidBody.velocity.y);
+                myRigidBody.velocity = tempVelocity+jumpVelocityToAdd;
+            } else {
+                //Debug.Log(Physics2D.gravity);
+                Physics2D.gravity = new Vector2(0, -100f);
+                Vector2 jumpVelocityToAdd = new Vector2(0f, jumpSpeed);
+                myRigidBody.velocity += jumpVelocityToAdd;
+            }
+            
         }
     }
 
@@ -169,7 +201,12 @@ public class Player : MonoBehaviour {
         bool playerHasHorizontalSpeed = Mathf.Abs(myRigidBody.velocity.x) > Mathf.Epsilon;
 
         if (playerHasHorizontalSpeed) {
-            transform.localScale = new Vector2(Mathf.Sign(myRigidBody.velocity.x), 1f);
+            if (isReversed) {
+                transform.localScale = new Vector2(Mathf.Sign(myRigidBody.velocity.x)*-1, 1f);
+
+            } else {
+                transform.localScale = new Vector2(Mathf.Sign(myRigidBody.velocity.x), 1f);
+            }
         }
     }
 }
