@@ -11,6 +11,7 @@ public class LevelExit : MonoBehaviour {
     
 
     public void Update() {
+        // IMPORTANT: Change the build index for future release.
         if (SceneManager.GetActiveScene().buildIndex == 3) {
             SpriteRenderer sp = gameObject.GetComponent<SpriteRenderer>();
             BoxCollider2D bc = gameObject.GetComponent<BoxCollider2D>();

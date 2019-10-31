@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityStandardAssets.CrossPlatformInput;
 
 
@@ -51,6 +52,7 @@ public class Player : MonoBehaviour {
         Jump();
         ClimbLadder();
         Die();
+        reverseGravity();
         //Dash();
     }
 
@@ -129,8 +131,16 @@ public class Player : MonoBehaviour {
         bool playerHasVerticalSpeed = Mathf.Abs(myRigidBody.velocity.y) > Mathf.Epsilon;
         myAnimator.SetBool("Climbing", playerHasVerticalSpeed);
     }
-    
-    
+
+    private void reverseGravity() {
+        // IMPORTANT: Change the build index when release
+        if (SceneManager.GetActiveScene().buildIndex == 4) {
+            if (Input.GetKeyDown(KeyCode.G)) {
+                Debug.Log("WTF");
+                myRigidBody.gravityScale *= -1;
+            }
+        }
+    }
     
     
     private void Jump() {
