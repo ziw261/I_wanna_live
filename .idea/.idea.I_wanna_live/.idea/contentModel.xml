@@ -18,6 +18,7 @@
           <e p="HiddenObjects.cs" t="Include" />
           <e p="LevelExit.cs" t="Include" />
           <e p="Menu.cs" t="Include" />
+          <e p="Moving_Trap.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="ScenePersist.cs" t="Include" />
           <e p="VerticalScroll.cs" t="Include" />

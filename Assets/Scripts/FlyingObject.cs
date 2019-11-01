@@ -13,8 +13,7 @@ public class FlyingObject : MonoBehaviour {
     public void Fly() {
         if (shouldFly) {
             StartCoroutine(Wait());
-            float yMove = flyingSpeed * Time.deltaTime;
-            transform.Translate(new Vector2(0f, yMove));
+           
         }
     }
 
@@ -23,7 +22,10 @@ public class FlyingObject : MonoBehaviour {
     }
 
     IEnumerator Wait() {
+        //Debug.Log("Got here once");
         yield return new WaitForSeconds(waitTimeToResponse);
+        float yMove = flyingSpeed * Time.deltaTime;
+        transform.Translate(new Vector2(0f, yMove));
     }
     
 }
