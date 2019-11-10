@@ -19,8 +19,10 @@
           <e p="LevelExit.cs" t="Include" />
           <e p="Menu.cs" t="Include" />
           <e p="Moving_Trap.cs" t="Include" />
+          <e p="Moving_Trap_Trigger.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="ScenePersist.cs" t="Include" />
+          <e p="Text_Trigger.cs" t="Include" />
           <e p="VerticalScroll.cs" t="Include" />
         </e>
         <e p="Standard Assets" t="Include">

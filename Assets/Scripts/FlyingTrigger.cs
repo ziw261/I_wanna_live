@@ -12,5 +12,6 @@ public class FlyingTrigger : MonoBehaviour {
     private void OnTriggerEnter2D(Collider2D other) {
         // Let the object fly up. 
         flyingObject.shouldFly = true;
+       
     }
 }

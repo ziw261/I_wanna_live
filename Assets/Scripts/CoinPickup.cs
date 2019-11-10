@@ -13,7 +13,6 @@ public class CoinPickup : MonoBehaviour {
     private void OnTriggerEnter2D(Collider2D other) {
 
         if (!hasBeenPicked) {
-            // Bug here: Player has two colliders, and the score may increase twice as we expected.
             hasBeenPicked = true;
             FindObjectOfType<GameSession>().AddToScore(pointsForCoinPickup);
             AudioSource.PlayClipAtPoint(coinPickUpSFX, Camera.main.transform.position);

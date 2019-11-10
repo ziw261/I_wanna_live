@@ -66,8 +66,10 @@
      <Compile Include="Assets\Scripts\LevelExit.cs" />
      <Compile Include="Assets\Scripts\Menu.cs" />
      <Compile Include="Assets\Scripts\Moving_Trap.cs" />
+     <Compile Include="Assets\Scripts\Moving_Trap_Trigger.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\ScenePersist.cs" />
+     <Compile Include="Assets\Scripts\Text_Trigger.cs" />
      <Compile Include="Assets\Scripts\VerticalScroll.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/GitHub/I_wanna_live/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

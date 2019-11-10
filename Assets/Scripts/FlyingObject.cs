@@ -25,6 +25,9 @@ public class FlyingObject : MonoBehaviour {
         //Debug.Log("Got here once");
         yield return new WaitForSeconds(waitTimeToResponse);
         float yMove = flyingSpeed * Time.deltaTime;
+        
+        
+        
         transform.Translate(new Vector2(0f, yMove));
     }
     

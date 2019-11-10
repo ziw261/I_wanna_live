@@ -7,6 +7,7 @@ public class Moving_Trap : MonoBehaviour
     [SerializeField] private float waitTimeToChangeDir = 5f;
     [SerializeField] private float moveSpeed = 0.5f;
     private bool changeDirection = false;
+    public bool shouldFly = false;
     
     
     // Start is called before the first frame update
@@ -16,14 +17,25 @@ public class Moving_Trap : MonoBehaviour
 
     // Update is called once per frame
     void Update() {
-        Mov();
+        //Mov();
+        
+        if (shouldFly == true) {
+            //Debug.Log("Debug message 1");
+            gameObject.GetComponent<FlyingObject>().shouldFly = true;
+        } else {
+            Mov();
+        }
     }
     
     IEnumerator Wait() {
-        //Debug.Log("Got here once");
-        yield return new WaitForSeconds(waitTimeToChangeDir);
-        changeDirection = !changeDirection;
-        StartCoroutine(Wait());
+        if (shouldFly == false) {
+            //Debug.Log("Got here once");
+            yield return new WaitForSeconds(waitTimeToChangeDir);
+            changeDirection = !changeDirection;
+            StartCoroutine(Wait());
+        } else {
+            yield return new WaitForSeconds(0f);
+        }
     }
 
     private void Mov() {
