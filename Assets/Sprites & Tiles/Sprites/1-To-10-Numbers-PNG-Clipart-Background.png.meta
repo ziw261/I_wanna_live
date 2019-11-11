@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 590e88c66a566574db3c90fcf647b1cf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3488274412578038623
+    second: 1-To-10-Numbers-PNG-Clipart-Background_0
+  - first:
+      213: 2050028108507261115
+    second: 1-To-10-Numbers-PNG-Clipart-Background_1
+  - first:
+      213: 2680020536902710138
+    second: 1-To-10-Numbers-PNG-Clipart-Background_2
+  - first:
+      213: 1048149982687565280
+    second: 1-To-10-Numbers-PNG-Clipart-Background_3
+  - first:
+      213: 8711506376711299947
+    second: 1-To-10-Numbers-PNG-Clipart-Background_4
+  - first:
+      213: 3671933869055905486
+    second: 1-To-10-Numbers-PNG-Clipart-Background_5
+  - first:
+      213: -1352599456727030223
+    second: 1-To-10-Numbers-PNG-Clipart-Background_6
+  - first:
+      213: -4882931645645174626
+    second: 1-To-10-Numbers-PNG-Clipart-Background_7
+  - first:
+      213: -4264271856786222183
+    second: 1-To-10-Numbers-PNG-Clipart-Background_8
+  - first:
+      213: -4347226641895803340
+    second: 1-To-10-Numbers-PNG-Clipart-Background_9
+  - first:
+      213: 326570490397770923
+    second: 1-To-10-Numbers-PNG-Clipart-Background_10
+  - first:
+      213: -6936111799891267448
+    second: 1-To-10-Numbers-PNG-Clipart-Background_11
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1-To-10-Numbers-PNG-Clipart-Background_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 213.33334
+        width: 105
+        height: 106.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b58af031a7525f4d93f1e23aff67123
+      internalID: 3488274412578038623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1-To-10-Numbers-PNG-Clipart-Background_1
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 218
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60639e39d4bbd540bba49b83769c7de
+      internalID: 2050028108507261115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1-To-10-Numbers-PNG-Clipart-Background_2
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 218
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9a7f77a51836e4f9c63e64578fc1dd
+      internalID: 2680020536902710138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1-To-10-Numbers-PNG-Clipart-Background_3
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 220
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510d61f82da873c4792037f8efaa2d37
+      internalID: 1048149982687565280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1-To-10-Numbers-PNG-Clipart-Background_4
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 126
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d2713bde3496e489fd2d9e97aabfd9
+      internalID: 8711506376711299947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1-To-10-Numbers-PNG-Clipart-Background_5
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 127
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432c7789bb0bf8049a7c71d92319bca8
+      internalID: 3671933869055905486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1-To-10-Numbers-PNG-Clipart-Background_6
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 126
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb7a5c564fd86d4cbaff55cfac13d7d
+      internalID: -1352599456727030223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1-To-10-Numbers-PNG-Clipart-Background_7
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 129
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79dcc5aa0592f0d4f933a0b461439cdd
+      internalID: -4882931645645174626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1-To-10-Numbers-PNG-Clipart-Background_8
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 34
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8545c5dbc6b00ed4a9f78bb5d129d242
+      internalID: -4264271856786222183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1-To-10-Numbers-PNG-Clipart-Background_9
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 35
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb0ae755cb5157499c8dc589815b891
+      internalID: -4347226641895803340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1-To-10-Numbers-PNG-Clipart-Background_10
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 36
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8acaf8a6f6e82494a99724b9c086f0be
+      internalID: 326570490397770923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1-To-10-Numbers-PNG-Clipart-Background_11
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1.3333359
+        width: 105
+        height: 106.666664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ee9ec906d49de41935761f0e7adec7
+      internalID: -6936111799891267448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

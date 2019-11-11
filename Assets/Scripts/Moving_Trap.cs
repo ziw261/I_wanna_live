@@ -6,6 +6,7 @@ public class Moving_Trap : MonoBehaviour
 {
     [SerializeField] private float waitTimeToChangeDir = 5f;
     [SerializeField] private float moveSpeed = 0.5f;
+    [SerializeField] private FlyingObject flyingObject;
     private bool changeDirection = false;
     public bool shouldFly = false;
     
@@ -21,7 +22,7 @@ public class Moving_Trap : MonoBehaviour
         
         if (shouldFly == true) {
             //Debug.Log("Debug message 1");
-            gameObject.GetComponent<FlyingObject>().shouldFly = true;
+            flyingObject.shouldFly = true;
         } else {
             Mov();
         }

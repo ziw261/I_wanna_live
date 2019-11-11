@@ -7,20 +7,18 @@ public class Text_Trigger : MonoBehaviour {
 
     [SerializeField] private GameObject go;
     [SerializeField] private float waitTime = 2f;
-    private bool shouldTurnOff = false;
-    private bool shouldTurnOn = false;
+    private bool stateSwitch = false;
     private bool shouldDestroy = false;
     
     
     private void OnTriggerEnter2D(Collider2D other) {
-        shouldTurnOn = true;
+        stateSwitch = true;
         shouldDestroy = true;
     }
     
 
     private void Update() {
-        turnoffText();
-        turnonText();
+        activateSwitch();
         if (shouldDestroy) {
             StartCoroutine(Destroy());
         }
@@ -28,26 +26,23 @@ public class Text_Trigger : MonoBehaviour {
 
     IEnumerator Wait() {
         yield return new WaitForSeconds(waitTime);
-        shouldTurnOff = true;
-        shouldTurnOn = false;
+        //shouldTurnOff = true;
+        //shouldTurnOn = false;
+        stateSwitch = false;
     }
 
     IEnumerator Destroy() {
         yield return new WaitForSeconds(waitTime + 0.1f);
         Destroy(gameObject);
     }
+    
 
-
-    private void turnoffText() {
-        if (shouldTurnOff) {
-            go.SetActive(false);
-        }
-    }
-
-    private void turnonText() {
-        if (shouldTurnOn) {
+    private void activateSwitch() {
+        if (stateSwitch) {
             go.SetActive(true);
             StartCoroutine(Wait());
+        } else {
+            go.SetActive(false);
         }
     }
 
