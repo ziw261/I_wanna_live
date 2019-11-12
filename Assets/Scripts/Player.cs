@@ -139,7 +139,7 @@ public class Player : MonoBehaviour {
 
     private void reverseGravity() {
         // IMPORTANT: Change the build index when release
-        if (SceneManager.GetActiveScene().buildIndex == 4) {
+        if (SceneManager.GetActiveScene().buildIndex == 2) {
             
             if (Input.GetKeyDown(KeyCode.G)) {
                 if (!isReversed) {

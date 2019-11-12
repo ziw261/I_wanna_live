@@ -53,11 +53,16 @@ public class GameSession : MonoBehaviour {
         return score;
     }
 
+    public void ZeroScore() {
+        score = 0;
+    }
+
     
     
     IEnumerator TakeLife() {
         yield return new WaitForSeconds(2f);
         score = 0;
+        AddToScore(0);
         playerLives--;
         livesText.text = playerLives.ToString();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

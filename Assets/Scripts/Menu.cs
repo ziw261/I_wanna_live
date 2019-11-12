@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -12,5 +13,11 @@ public class Menu : MonoBehaviour {
 
     public void LoadMainMenu() {
         SceneManager.LoadScene(0);
+    }
+
+    public void Update() {
+        if (Input.GetKeyDown(KeyCode.Return)) {
+            StartFirstLevel();
+        }
     }
 }
