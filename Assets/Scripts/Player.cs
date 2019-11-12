@@ -191,7 +191,12 @@ public class Player : MonoBehaviour {
         if (myBodyCollider2D.IsTouchingLayers(LayerMask.GetMask("Enemy", "Hazards"))) {
             
             //reverse back if isreversed
-           
+            if (isReversed) {
+                Physics2D.gravity = new Vector2(0, -9.8f*gravityForce);
+                gameObject.transform.rotation = new Quaternion(0,0,0,gameObject.transform.rotation.w);
+
+                isReversed = false;
+            }
 
 
             myAnimator.SetTrigger("Dying");
@@ -199,12 +204,7 @@ public class Player : MonoBehaviour {
             isAlive = false;
             FindObjectOfType<GameSession>().ProcessPlayerDeath();
             
-            if (isReversed) {
-                Physics2D.gravity = new Vector2(0, -9.8f*gravityForce);
-                gameObject.transform.rotation = new Quaternion(0,0,0,gameObject.transform.rotation.w);
-
-                isReversed = false;
-            }
+            
         }
     }
     
