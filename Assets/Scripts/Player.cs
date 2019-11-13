@@ -18,7 +18,7 @@ public class Player : MonoBehaviour {
     // State
     private bool isAlive = true;
     private bool canIDash = false;
-    private bool isReversed = false;
+    public bool isReversed = false;
     
     
     // Cached Component Reference
@@ -139,7 +139,7 @@ public class Player : MonoBehaviour {
 
     private void reverseGravity() {
         // IMPORTANT: Change the build index when release
-        if (SceneManager.GetActiveScene().buildIndex == 2) {
+        if (SceneManager.GetActiveScene().buildIndex == 2 || SceneManager.GetActiveScene().buildIndex == 3) {
             
             if (Input.GetKeyDown(KeyCode.G)) {
                 if (!isReversed) {
@@ -191,12 +191,15 @@ public class Player : MonoBehaviour {
         if (myBodyCollider2D.IsTouchingLayers(LayerMask.GetMask("Enemy", "Hazards"))) {
             
             //reverse back if isreversed
+            /*
             if (isReversed) {
                 Physics2D.gravity = new Vector2(0, -9.8f*gravityForce);
                 gameObject.transform.rotation = new Quaternion(0,0,0,gameObject.transform.rotation.w);
 
                 isReversed = false;
             }
+            */
+            isReversed = false;
 
 
             myAnimator.SetTrigger("Dying");
@@ -206,6 +209,16 @@ public class Player : MonoBehaviour {
             
             
         }
+    }
+
+    public void instantDie() {
+        isReversed = false;
+
+
+        myAnimator.SetTrigger("Dying");
+        GetComponent<Rigidbody2D>().velocity = deathKick;
+        isAlive = false;
+        FindObjectOfType<GameSession>().ProcessPlayerDeath();
     }
     
     // When moving horizontally, flip the sprite to face the correct direction

@@ -27,6 +27,8 @@ public class GameSession : MonoBehaviour {
     void Start() {
         livesText.text = playerLives.ToString();
         scoreText.text = score.ToString();
+        
+
     }
 
     
@@ -65,6 +67,10 @@ public class GameSession : MonoBehaviour {
         AddToScore(0);
         playerLives--;
         livesText.text = playerLives.ToString();
+        FindObjectOfType<Player>().isReversed = false;
+        
+        // To prevent infinite death
+        Physics2D.gravity = new Vector2(0, -9.8f*50);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 

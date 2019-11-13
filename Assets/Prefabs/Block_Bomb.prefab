@@ -203,8 +203,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7981303916128683716}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 43.46, y: -0.49, z: -1}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalPosition: {x: 43.4577, y: -0.4877, z: -1}
+  m_LocalScale: {x: 0.6628282, y: 0.63997936, z: 1}
   m_Children: []
   m_Father: {fileID: 7981303914086551861}
   m_RootOrder: 1
@@ -270,6 +270,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b1a7ea3c9b88714e810995b1f91a0e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isBomb: 1
+  exchangeSprite: {fileID: 21300000, guid: 216aead966f70eb47983631637acbbd2, type: 3}
 --- !u!61 &7981303916128683736
 BoxCollider2D:
   m_ObjectHideFlags: 0
