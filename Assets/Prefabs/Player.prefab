@@ -139,8 +139,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.008343577, y: -0.09651989}
-  m_Size: {x: 0.6096654, y: 0.8169602}
+  m_Offset: {x: -0.008343458, y: -0.09651989}
+  m_Size: {x: 0.554358, y: 0.8169602}
   m_Direction: 0
 --- !u!114 &1811036722
 MonoBehaviour:
@@ -158,6 +158,8 @@ MonoBehaviour:
   jumpSpeed: 28
   climbSpeed: 5
   deathKick: {x: 0, y: 150}
+  gravityForce: 50
+  isReversed: 0
 --- !u!61 &1811036723
 BoxCollider2D:
   m_ObjectHideFlags: 0

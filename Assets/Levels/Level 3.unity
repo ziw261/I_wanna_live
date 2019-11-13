@@ -37512,7 +37512,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1811036722, guid: d28f5ff339cb549b1b2984326b0bc1c0, type: 3}
       propertyPath: jumpSpeed
-      value: 18
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1811036722, guid: d28f5ff339cb549b1b2984326b0bc1c0, type: 3}
       propertyPath: deathKick.y

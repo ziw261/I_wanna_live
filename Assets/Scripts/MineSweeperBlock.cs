@@ -8,6 +8,9 @@ public class MineSweeperBlock : MonoBehaviour {
     public bool isBomb = false;
     public Sprite exchangeSprite;
 
+    private bool isOpened = false;
+    private bool isMarked = false;
+    private Sprite oldSprite = null;
     private void Update() {
        
     }
@@ -25,20 +28,51 @@ public class MineSweeperBlock : MonoBehaviour {
 
     private void OnMouseOver() {
         if (Input.GetMouseButtonDown(0)) {
-            SpriteRenderer sp = GetComponent<SpriteRenderer>();
-            if (isBomb) {
-                sp.color = new Color(255,0,0);
+            if (!isMarked) {
+                isOpened = true;
+                SpriteRenderer sp = GetComponent<SpriteRenderer>();
+                if (isBomb) {
+                    sp.color = new Color(255, 0, 0);
+                }
+
+                sp.enabled = true;
+                //Debug.Log("Clicked!");
+                if (isBomb) {
+                    FindObjectOfType<Player>().instantDie();
+                }
+            } else {
+                gameObject.GetComponent<SpriteRenderer>().sprite = oldSprite;
+                if (!isBomb) {
+                    transform.localScale = new Vector3(1.5f, 0.75f, 1f);
+                } else {
+                    transform.localScale = new Vector3(0.6f, 0.6f, 1f);
+                    gameObject.GetComponent<SpriteRenderer>().color  = new Color(255f, 0f, 0f);
+                    FindObjectOfType<Player>().instantDie();
+                }
             }
-            sp.enabled = true;
-            //Debug.Log("Clicked!");
-            if (isBomb) {
-                FindObjectOfType<Player>().instantDie();
+        } else if(Input.GetMouseButtonDown(1)) {
+            if (isOpened) {
+                return;
             }
-        } else if(Input.GetMouseButtonDown(1)){
-            gameObject.GetComponent<SpriteRenderer>().sprite = exchangeSprite;
-            gameObject.GetComponent<SpriteRenderer>().enabled = true;
-            transform.localScale = new Vector3(0.5f,0.5f,1f);
-            //gameObject.GetComponent<SpriteRenderer>().color = new Color(255f,0,0);
+
+            if (!isMarked) {
+                Vector3 temp = transform.localScale;
+                oldSprite = gameObject.GetComponent<SpriteRenderer>().sprite; 
+                gameObject.GetComponent<SpriteRenderer>().sprite = exchangeSprite;
+                gameObject.GetComponent<SpriteRenderer>().enabled = true;
+                transform.localScale = new Vector3((0.6f),(0.6f),1f);
+                isMarked = true;
+                //gameObject.GetComponent<SpriteRenderer>().color = new Color(255f,0,0);
+            } else {
+                gameObject.GetComponent<SpriteRenderer>().enabled = false;
+                gameObject.GetComponent<SpriteRenderer>().sprite = oldSprite;
+                if (!isBomb) {
+                    transform.localScale = new Vector3(1.5f, 0.75f, 1f);
+                }
+
+                isMarked = false;
+
+            }
         }
     }
 
