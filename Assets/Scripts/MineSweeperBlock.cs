@@ -11,8 +11,8 @@ public class MineSweeperBlock : MonoBehaviour {
     private bool isOpened = false;
     private bool isMarked = false;
     private Sprite oldSprite = null;
-    private void Update() {
-       
+    private void Start() {
+        isOpened = GetComponent<SpriteRenderer>().enabled;
     }
 
     /*
@@ -41,6 +41,7 @@ public class MineSweeperBlock : MonoBehaviour {
                     FindObjectOfType<Player>().instantDie();
                 }
             } else {
+                isOpened = true;
                 gameObject.GetComponent<SpriteRenderer>().sprite = oldSprite;
                 if (!isBomb) {
                     transform.localScale = new Vector3(1.5f, 0.75f, 1f);
