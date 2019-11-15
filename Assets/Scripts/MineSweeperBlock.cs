@@ -79,7 +79,10 @@ public class MineSweeperBlock : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D other) {
         if (other == FindObjectOfType<Player>().GetComponent<Collider2D>()) {
-            FindObjectOfType<Player>().instantDie();
+            if (isBomb) {
+                FindObjectOfType<Player>().instantDie();
+            }
+
         }
     }
 }    
