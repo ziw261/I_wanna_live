@@ -146,11 +146,13 @@ public class Player : MonoBehaviour {
                     Debug.Log("reversed");
                     Physics2D.gravity = new Vector2(0, 9.8f*gravityForce);
                     isReversed = true;
-                    gameObject.transform.rotation = new Quaternion(0,0,180,-gameObject.transform.rotation.w);
+                    gameObject.transform.rotation = new Quaternion(0,0,-180, -gameObject.transform.rotation.w);
+                    gameObject.transform.localScale = new Vector2(gameObject.transform.localScale.x * -1f, 1f);
                     Debug.Log(isReversed);
                 } else {
                     Physics2D.gravity = new Vector2(0, -9.8f*gravityForce);
                     gameObject.transform.rotation = new Quaternion(0,0,0,gameObject.transform.rotation.w);
+                    gameObject.transform.localScale = new Vector2(gameObject.transform.localScale.x * -1f, 1f);
 
                     isReversed = false;
                 }

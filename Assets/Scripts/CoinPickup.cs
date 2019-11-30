@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class CoinPickup : MonoBehaviour {
     // Start is called before the first frame update
-    [SerializeField] private AudioClip coinPickUpSFX;
+    //[SerializeField] private AudioClip coinPickUpSFX;
     [SerializeField] private int pointsForCoinPickup = 1;
 
     private bool hasBeenPicked = false;
@@ -15,7 +15,7 @@ public class CoinPickup : MonoBehaviour {
         if (!hasBeenPicked) {
             hasBeenPicked = true;
             FindObjectOfType<GameSession>().AddToScore(pointsForCoinPickup);
-            AudioSource.PlayClipAtPoint(coinPickUpSFX, Camera.main.transform.position);
+            //AudioSource.PlayClipAtPoint(coinPickUpSFX, Camera.main.transform.position);
             Destroy(gameObject);
         } 
         

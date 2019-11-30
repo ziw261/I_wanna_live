@@ -61,7 +61,7 @@ public class MineSweeperBlock : MonoBehaviour {
                 oldSprite = gameObject.GetComponent<SpriteRenderer>().sprite; 
                 gameObject.GetComponent<SpriteRenderer>().sprite = exchangeSprite;
                 gameObject.GetComponent<SpriteRenderer>().enabled = true;
-                transform.localScale = new Vector3((0.6f),(0.6f),1f);
+                transform.localScale = new Vector3((0.64f),(0.64f),1f);
                 isMarked = true;
                 //gameObject.GetComponent<SpriteRenderer>().color = new Color(255f,0,0);
             } else {
